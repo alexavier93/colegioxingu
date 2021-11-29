@@ -1,0 +1,108 @@
+#pedagogia {
+    margin-top: 115px;
+
+    .title-section {
+        hr {
+            width: 15%;
+        }
+    }
+
+    .intro {
+        background-image: url("/assets/images/bg-04.png");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 60px;
+        padding-bottom: 200px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .proposta {
+        background-image: url("/assets/images/bg-05.jpg");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -135px;
+        margin-bottom: -145px;
+        padding: 90px 0;
+
+        h2 {
+            color: $cyan;
+            font-weight: 600;
+        }
+
+        p {
+            color: #9b9b9b;
+        }
+    }
+}
+
+#etapas {
+    margin-top: 115px;
+
+    .intro {
+        background-image: url("/assets/images/bg-04.png");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 60px;
+        padding-bottom: 200px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .etapa-1 {
+        background-image: url("/assets/images/bg-05-1.jpg");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -135px;
+        margin-bottom: -125px;
+        padding: 115px 0;
+
+        h2 {
+            color: $cyan;
+            font-weight: 600;
+        }
+
+        p {
+            color: #9b9b9b;
+        }
+
+        .img-etapa {
+            img {
+                border-radius: 3rem !important;
+            }
+        }
+    }
+
+    .etapa-2 {
+        background-image: url("/assets/images/bg-05-1.png");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 145px;
+        padding-bottom: 145px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .etapa-3 {
+        background-color: #eff4f8;
+        background-image: url("/assets/images/bg-05.jpg");
+        background-position-x: center;
+        background-position-y: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 120px;
+        padding-bottom: 110px;
+        margin-top: -120px;
+        margin-bottom: -125px;
+    }
+}

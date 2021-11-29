@@ -1,0 +1,142 @@
+#footer {
+	background-image: url('/assets/images/bg-footer.png');
+    background-position-x: center;
+    background-position-y: -35px;
+    background-size: cover;
+    background-repeat: no-repeat;
+	color: #FFF;
+	position: relative;
+	z-index: 1;
+
+	.footer-top {
+		padding-top: 100px;
+		
+		.links {
+
+			.item-link {
+				margin-top: 20px;
+
+				h3 {
+					color: #FFF;
+					font-size: 26px;
+					margin-bottom: 10px;
+					padding: 0;
+				}
+
+				h5 {
+					font-size: 14px;
+					font-weight: 400;
+				}
+
+				p {
+					font-size: 14px;
+					line-height: 25px;
+				}
+
+				.form-newsletter {
+					margin-bottom: 30px;
+
+					form {
+						position: relative;
+
+						input {
+							background-color: #E0E0E0;
+							color: #333;
+							width: 100%;
+							margin: 0;
+							border: 0;
+							border-radius: 2px;
+							font-size: 16px;
+							line-height: 1em;
+							padding: 10px;
+						}
+
+						button {
+							background: $secondcolor;
+							margin: 0;
+							border: 0;
+							border-radius: 2px;
+							font-size: 16px;
+							line-height: 1em;
+							padding: 10px 15px;
+							position: absolute;
+							right: 12px;
+							bottom: 4px;
+						}
+
+						::-webkit-input-placeholder { /* Edge */
+							color: #333;
+						  }
+						  
+						  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+							color: #333;
+						  }
+						  
+						  ::placeholder {
+							color: #333;
+						  }
+
+					}
+
+				}
+
+				.social {
+					margin-top: 20px;
+
+					> li {
+						padding: 0;
+						display: inline-block;
+
+						a {
+							
+													
+							i {
+								height: 30px;
+								width: 30px;
+								line-height: 32px;
+								color: #fff;
+								font-size: 16px;
+								position: relative;
+								text-align: center;
+								-webkit-transition: 0.5s ease-in-out;
+								-o-transition: 0.5s ease-in-out;
+								transition: 0.5s ease-in-out;
+							}
+
+						}
+
+					}
+
+				}
+
+			}
+
+		}
+
+
+	}
+
+	.bottom-footer {
+		background: $secondcolor;
+	    padding: 10px 20px;
+	    color: #fff;
+	    height: 100%;
+
+		p {
+			margin: 0;
+			font-size: 14px;
+		}
+
+		.copy {
+			float: left;
+			padding: 5px 0;
+		}
+
+		.dev {
+			float: right;
+			text-align: right;
+		}
+
+	}
+	
+}

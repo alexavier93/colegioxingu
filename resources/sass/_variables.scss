@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+    font-family: 'Circe';
+    src: url("/assets/fonts/Circe.otf");
+}
+
+@font-face {
+    font-family: 'Circe Bold';
+    src: url("/assets/fonts/Circe-Bold.otf");
+}
+
+@font-face {
+    font-family: 'Circe ExtraBold';
+    src: url("/assets/fonts/Circe-ExtraBold.ttf");
+}
+
+// Body
+$body-bg: #fff;
+
+// Typography
+$font-family-sans-serif: "Nunito Sans", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$primarycolor: #261e8e;
+$secondcolor: #ff4b09;
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+// Colors
+$primary: #004a94;
+$dark: #4c4c4e;
+$white: #ffffff;
+$black: #000000;
+$light: #3490dc;
+$danger: #d41f25;
+$grey: #9B9B9B;
+$cyan: #20BEC8;
+
+$theme-colors: (
+    "primary": $primary,
+    "dark": $dark,
+    "light": $white,
+    "danger": $danger,
+    "grey": $grey,
+    "cyan": $cyan,
+);

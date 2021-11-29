@@ -1,0 +1,81 @@
+#institucional {
+    margin-top: 115px;
+
+    .title-section {
+        hr {
+            width: 15%;
+        }
+    }
+
+    .intro {
+        background-image: url("/assets/images/bg-04.png");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 60px;
+        padding-bottom: 230px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .institucional-01 {
+        background-image: url("/assets/images/bg-05-1.jpg");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        margin-top: -135px;
+        margin-bottom: -125px;
+        padding: 115px 0;
+
+        h2 {
+            color: $cyan;
+            font-weight: 600;
+        }
+
+        p {
+            color: #9b9b9b;
+        }
+    }
+
+    .institucional-02 {
+        background-image: url("/assets/images/bg-05-1.png");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 145px;
+        padding-bottom: 145px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .institucional-03 {
+        background-color: #261E8E;
+        border-bottom: 25px solid #8ed649;
+        padding-top: 90px;
+        padding-bottom: 80px;
+        margin-top: -140px;
+    }
+
+    .institucional-04 {
+        background-image: url("/assets/images/bg-08.png");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 115px 0;
+        margin-bottom: -125px;
+
+        h2 {
+            color: $cyan;
+            font-weight: 600;
+        }
+
+        p {
+            color: #9b9b9b;
+        }
+    }
+
+   
+}

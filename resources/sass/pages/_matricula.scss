@@ -1,0 +1,81 @@
+#matricula {
+    margin-top: 115px;
+
+    .title-section {
+        hr {
+            width: 15%;
+        }
+    }
+
+    .intro {
+        background-image: url("/assets/images/bg-04.png");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 60px;
+        padding-bottom: 200px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .matricula-01 {
+        background-image: url("/assets/images/bg-05-1.jpg");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -135px;
+        margin-bottom: -125px;
+        padding-top: 150px;
+        padding-bottom: 80px;
+
+        h2 {
+            color: $cyan;
+            font-weight: 600;
+        }
+
+        p {
+            color: #9b9b9b;
+        }
+
+        .rounded {
+            border-radius: 3rem !important;
+        }
+    }
+
+    .matricula-02 {
+        background-image: url("/assets/images/bg-07.png");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -260px;
+        margin-bottom: -125px;
+        padding-top: 280px;
+        padding-bottom: 115px;
+
+        form {
+            input, select {
+                border-radius: 25px !important;
+                border: 0;
+                line-height: 2;
+                text-align: center;
+                font-size: 18px;
+            }
+
+            button {
+                background-color: #8ED649;
+                border-radius: 25px !important;
+                border: 0;
+                line-height: 2;
+                font-size: 18px;
+            }
+
+            .form-check-input:checked {
+                background-color: #FF4B09;
+                border-color: #FF4B09;
+            }
+        }
+    }
+}

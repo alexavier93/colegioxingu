@@ -1,0 +1,27 @@
+@import "bootstrap";
+
+@import '~slick-carousel/slick/slick.css';
+@import '~slick-carousel/slick/slick-theme.css';
+
+// Variables
+@import 'variables';
+
+
+// Site
+@import 'global';
+@import 'header';
+@import 'pages/home';
+@import 'pages/quemsomos';
+@import 'pages/pedagogia';
+@import 'pages/institucional';
+@import 'pages/extracurricular';
+@import 'pages/matricula';
+@import 'pages/midia';
+@import 'pages/cantina';
+@import 'pages/agenda';
+@import 'pages/blog';
+@import 'pages/contato';
+@import 'pages/politicadeprivacidade';
+@import 'pages/sazonal';
+@import 'footer';
+@import 'responsive';

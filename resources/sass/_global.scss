@@ -1,0 +1,314 @@
+body {
+  font-family: "Circe", sans-serif;
+}
+
+.bg-cyan {
+  background-color: $cyan;
+}
+
+.bg-blue {
+  background-color: #261e8e;
+}
+
+.bg-gray {
+  background-color: #f5f3ef;
+}
+
+.bg-orange {
+  background-color: $secondcolor !important;
+}
+
+.bg-red {
+  background-color: #d8054b;
+}
+
+.text-cyan {
+  color: $cyan !important;
+}
+
+.text-grey {
+  color: #9b9b9b !important;
+}
+
+.text-orange {
+  color: $secondcolor !important;
+}
+
+.text-red {
+  color: #d8054b;
+}
+
+.font-1 {
+  font-size: 1em;
+}
+
+.font-2 {
+  font-size: 2em;
+}
+
+.font-3 {
+  font-size: 3em;
+}
+
+.font-4 {
+  font-size: 4em;
+}
+
+.font-5 {
+  font-size: 5em;
+}
+
+.title-section {
+  h2 {
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    position: relative;
+  }
+
+  hr {
+    border-bottom: 5px solid $secondcolor;
+    width: 25%;
+    border-bottom: 4px solid #ff4b09;
+    opacity: 1;
+    display: inline-block;
+  }
+}
+
+.title-section-center {
+  max-width: 660px;
+  margin: -8px auto 60px;
+  text-align: center;
+  position: relative;
+}
+
+.page-title-content {
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: cover !important;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 400px;
+
+  h1 {
+    font-family: "Circe ExtraBold", sans-serif;
+    font-size: 55px;
+    color: #fff;
+    width: 45%;
+  }
+}
+
+.btn-mais {
+  font-size: 14px;
+  font-weight: 600;
+  -webkit-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+.msg-sucesso {
+  background: #40a24f;
+  padding: 5px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: none;
+}
+
+.msg-sucesso {
+  background: #e42f2f;
+  padding: 5px;
+  color: #fff;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: none;
+}
+
+select {
+  background-image: url("/assets/images/arrow_select.svg");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  background-size: 16px 12px;
+}
+
+.pagination {
+  .page-item {
+    margin: 0 5px;
+    .page-link {
+      background: transparent;
+      border: none;
+      font-size: 50px;
+      line-height: 0.5;
+      color: #20bec8;
+      font-weight: bold;
+    }
+
+    .page-link.number {
+      font-size: 30px;
+      line-height: 1;
+    }
+  }
+
+  .page-item.disabled {
+    .page-link {
+      color: #99dade;
+    }
+  }
+
+  .page-item.active {
+    .number {
+      background: #d8054b;
+      border-radius: 10px;
+      color: #fff;
+    }
+  }
+}
+
+//Float Whatsapp
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 60px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+}
+
+.float:hover {
+  color: #fff;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.shake {
+  animation: shake 1s infinite;
+  animation-direction: alternate;
+}
+
+@keyframes shake {
+  0% {
+    transform: translate(10px, 20px);
+  }
+  100% {
+    transform: translate(40px, 20px);
+  }
+}
+
+/* Floating Social Media Icons */
+
+.floating-smi {
+  position: fixed;
+  z-index: 1003;
+  bottom: 218px;
+  right: 15px;
+}
+
+.floating-smi .floating-smi-wrap .floating-smi-list {
+  display: block;
+}
+
+.floating-smi .floating-smi-wrap .floating-smi-list li {
+  display: block;
+  border-radius: 18px;
+  width: 36px;
+  height: 36px;
+  margin-bottom: 10px;
+  /* overflow:hidden; */
+}
+
+.floating-smi .floating-smi-wrap .floating-smi-list li:nth-child(1) {
+  display: block;
+  margin-bottom: 45px;
+}
+
+.floating-smi .floating-smi-wrap .floating-smi-list li:nth-child(1):before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.floating-smi .floating-smi-wrap .floating-smi-list li:nth-child(1):after {
+  height: 41px;
+}
+
+.floating-smi .floating-smi-wrap .floating-smi-list li:nth-last-child(1):after {
+  display: none;
+}
+
+.floating-smi .floating-smi-wrap .floating-smi-list li > em,
+.floating-smi .floating-smi-wrap .floating-smi-list li > a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border: 1px solid $primarycolor;
+  background: $primarycolor;
+  color: #fff;
+  font-size: 22px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.floating-smi .floating-smi-wrap .floating-smi-list li > em > a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.safari .floating-smi .floating-smi-wrap .floating-smi-list li > em,
+.safari .floating-smi .floating-smi-wrap .floating-smi-list li > a {
+  border-color: $primarycolor;
+}
+
+.floating-smi .floating-smi-wrap .floating-smi-list li > em:hover,
+.floating-smi .floating-smi-wrap .floating-smi-list li > a:hover {
+  background: $primarycolor;
+  border-color: $primarycolor;
+  color: #fff;
+}
+
+/* Range Slider Price */
+.price-slider {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  height: 3em;
+}
+
+#slider-range .ui-slider-handle {
+  outline: 0;
+  background: white;
+  border-radius: 50%;
+  border: 0;
+  top: -8px;
+  cursor: pointer;
+}
+
+#slider-range.ui-slider-horizontal {
+  top: 10px;
+  left: 5%;
+  height: 0.2em;
+  width: 90%;
+  border: none;
+  background: #ccc;
+}

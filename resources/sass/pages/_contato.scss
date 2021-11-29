@@ -1,0 +1,140 @@
+#contato {
+    margin-top: 115px;
+
+    .title-section {
+        hr {
+            width: 15%;
+        }
+    }
+
+    .intro {
+        background-image: url("/assets/images/bg-04.png");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 60px;
+        padding-bottom: 200px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .contato-01 {
+        background-image: url("/assets/images/bg-05-1.jpg");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -135px;
+        margin-bottom: -125px;
+        padding-top: 150px;
+        padding-bottom: 80px;
+
+        .infos {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            margin: 25px 0;
+
+            .icon {
+                width: 25px;
+                flex: 0 0 auto;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-right: 15px;
+
+                i {
+                    color: $secondcolor;
+                    font-size: 18px;
+                }
+            }
+
+            .info {
+                color: #9b9b9b;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+
+        .social {
+            margin-top: 20px;
+
+            > li {
+                padding: 0;
+                display: inline-block;
+
+                a {
+                    margin-right: 10px;
+
+                    i {
+                        line-height: 32px;
+                        color: $secondcolor;
+                        font-size: 25px;
+                        position: relative;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+
+        .form {
+            form {
+                input,
+                textarea {
+                    background: #e6e7e8;
+                    font-size: 16px;
+                    font-weight: 400;
+                    padding: 12px;
+                    border-color: #878787;
+                    border-radius: 10px;
+                }
+
+                button {
+                    background: #d8054b;
+                    border: none;
+                    color: #fff;
+                    font-size: 18px;
+                    border-radius: 25px;
+                    padding: 5px 30px;
+                }
+            }
+        }
+    }
+
+
+    .trabalhe-conosco {
+        background-image: url("/assets/images/bg-07.png");
+        background-position-x: center;
+        background-position-y: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -260px;
+        margin-bottom: -125px;
+        padding-top: 280px;
+        padding-bottom: 115px;
+
+        form {
+            input, select, textarea {
+                border-radius: 25px !important;
+                border: 0;
+                line-height: 2;
+                text-align: center;
+                font-size: 18px;
+            }
+
+            button {
+                background-color: #8ED649;
+                border-radius: 25px !important;
+                border: 0;
+                line-height: 2;
+                font-size: 18px;
+            }
+
+            .form-check-input:checked {
+                background-color: #FF4B09;
+                border-color: #FF4B09;
+            }
+        }
+    }
+}

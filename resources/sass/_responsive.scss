@@ -1,0 +1,618 @@
+// Responsive
+
+@media (max-width: 1300px) {
+	#header {
+		.header-nav {
+			.logo {
+				a {
+					display: block;
+					padding: 0 30px;
+				}
+			}
+
+			.menu {
+				padding: 0 20px;
+
+				.nav {
+					ul {
+						li > a {
+							padding: 0 7px;
+						}
+					}
+				}
+			}
+
+			.contato {
+				padding: 0 30px 0 20px;
+
+				a {
+					.phone-box {
+						width: 35px;
+						height: 35px;
+
+						i {
+							font-size: 16px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	#home {
+		.sobre-home {
+			.img-sobre {
+				.circles-right {
+					top: 47.5%;
+					left: 42.5%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	#header {
+		.header-nav {
+			.logo {
+				flex-grow: 1;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				a {
+					img {
+						max-height: 65px;
+						max-width: inherit;
+					}
+				}
+			}
+
+			.menu {
+				justify-content: center;
+				flex-grow: 1;
+				display: flex;
+				align-items: center;
+				padding: 0 15px;
+
+				.nav {
+					ul {
+						li > a {
+							font-size: 12px;
+							line-height: 60px;
+						}
+					}
+				}
+			}
+
+			.contact {
+				display: none;
+			}
+		}
+	}
+
+	#home {
+		.banner-section {
+			.searchblock__content {
+				width: 800px;
+			}
+		}
+
+		.sobre-home {
+			.img-sobre {
+				.circles-right {
+					top: 38%;
+					left: 30%;
+				}
+			}
+		}
+	}
+
+	#blog {
+		.blog-01 {
+			.post {
+				.post-info {
+					.post-title {
+						font-size: 18px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 992px) {
+	.page-title-content {
+		h1 {
+			width: 65%;
+		}
+	}
+
+	#header {
+		.header-top {
+			.midias {
+				li {
+					a {
+						padding-bottom: 5px;
+					}
+				}
+			}
+		}
+
+		.header-nav {
+			.wrap {
+				align-items: inherit;
+			}
+
+			.logo {
+				margin: 20px 0px;
+				flex-grow: inherit;
+
+				a {
+					img {
+						max-height: 50px;
+					}
+				}
+			}
+
+			.menu {
+				display: none;
+			}
+		}
+	}
+
+	#home {
+		.banner-carousel .slide-item {
+			padding: 100px 0 0px;
+			height: 450px;
+
+			.title {
+				margin-top: 40px;
+				h1 {
+					font-size: 35px;
+				}
+			}
+		}
+
+		.banner-section {
+			.searchblock__content {
+				top: 70%;
+			}
+		}
+		
+
+		.ensino-home {
+			.carousel-ensino {
+				.slick-list {
+					padding-top: 0px !important;
+					padding-bottom: 0px !important;
+				}
+
+				.card {
+					margin: 10px;
+				}
+			}
+		}
+
+		.novos-alunos-home {
+			padding: 100px;
+		}
+	}
+
+	#quem-somos {
+		.valores-01 {
+			background: #0a086b;
+			padding: 50px !important;
+		}
+
+		.valores-02 {
+			padding: 50px 0 !important;
+			margin: 0 !important;
+		}
+	}
+
+	#cantina {
+		.cantina-02 {
+			background: #0a086b;
+			padding-top: 50px;
+		}
+
+		.cantina-03 {
+			background: #0a086b;
+			padding: 50px !important;
+		}
+
+		.cantina-04 {
+			margin: 0;
+			padding-top: 50px;
+			padding-bottom: 50px;
+		}
+
+		.cantina-05 {
+			background: #261e8e;
+			margin: 0;
+			padding: 50px 0 !important;
+		}
+
+		.cantina-06 {
+			padding: 50px 0 !important;
+		}
+	}
+
+	#midia {
+		.midia-01 {
+			article {
+				.midia-image {
+					img {
+						width: 100%;
+						border-radius: 10px !important;
+					}
+				}
+
+				.midia-info {
+					.midia-title {
+						font-size: 20px;
+					}
+					.midia-description {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+	#footer {
+		.footer-top {
+			.links {
+				.item-link {
+					.form-newsletter {
+						form {
+							input {
+								width: 100%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 800px) {
+	#home {
+		.banner-section {
+			.searchblock__content {
+				width: 740px;
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.page-title-content {
+		height: 230px;
+
+		h1 {
+			font-size: 35px;
+		}
+	}
+
+	#home {
+		.banner-carousel .slide-item {
+			padding: 200px 0 0px;
+		}
+
+		.sobre-home {
+			background: #0a086b;
+			padding: 50px 20px !important;
+		}
+
+		.ensino-home {
+			margin: 0px !important;
+			padding: 50px 0;
+		}
+
+		.novos-alunos-home {
+			background: #0a086b;
+			padding: 50px 0;
+		}
+
+		.agenda-home {
+			background: #0a086b;
+			padding: 50px 0 !important;
+		}
+
+		.bg-blog-depoimento {
+			background: #f5f3ef;
+			margin: 0px !important;
+		}
+	}
+
+	#quem-somos {
+		.img-sobre {
+			img {
+				border-radius: 1rem !important;
+			}
+		}
+	}
+
+	#pedagogia {
+		margin-top: 115px;
+
+		.proposta {
+			margin-bottom: 0 !important;
+			padding-bottom: 20px;
+		}
+	}
+
+	#etapas {
+		margin-top: 115px;
+
+		.etapa-1 {
+			margin-bottom: 0;
+			padding-bottom: 20px;
+
+			.img-etapa {
+				img {
+					border-radius: 1rem !important;
+				}
+			}
+		}
+
+		.etapa-2 {
+			background: #0a086b;
+			padding: 50px 0 !important;
+		}
+
+		.etapa-3 {
+			margin: 0;
+			padding: 80px 50px;
+		}
+	}
+
+	#institucional {
+		margin-top: 115px;
+
+		.institucional-01 {
+			margin-bottom: 0;
+			padding-bottom: 10px;
+			background: #f4f3ef;
+		}
+		.institucional-02 {
+			background: #0a086b;
+			padding: 50px 0 !important;
+		}
+
+		.institucional-03 {
+			margin: 0;
+			padding: 50px 0;
+		}
+
+		.institucional-04 {
+			background: #fff;
+			padding: 50px 0;
+			margin: 0;
+		}
+	}
+
+	#extracurricular {
+		margin-top: 115px;
+
+		.extracurricular-01 {
+			padding-bottom: 10px;
+			margin-bottom: 0;
+			padding-top: 50px;
+
+			.rounded {
+				border-radius: 1rem !important;
+			}
+		}
+	}
+
+	#matricula {
+		margin-top: 115px;
+
+		.matricula-01 {
+			margin-bottom: 0;
+			padding-bottom: 10px;
+			padding-top: 50px;
+		}
+
+		.matricula-02 {
+			background: #0a086b;
+			margin: 0;
+			padding: 50px 0;
+			border-bottom: 10px solid #8ed649;
+		}
+	}
+
+	#midia {
+		margin-top: 115px;
+
+		.midia-01 {
+			margin-bottom: 0;
+			padding-bottom: 10px;
+			padding-top: 95px;
+			background: #f4f3ef;
+		}
+	}
+
+	#cantina {
+		margin-top: 115px;
+
+		.cantina-01 {
+			padding-bottom: 10px;
+			margin-bottom: 0;
+			padding-top: 50px;
+
+			.rounded {
+				border-radius: 1rem !important;
+			}
+		}
+
+		.cantina-06 {
+			margin: 0;
+		}
+	}
+
+
+	#contato {
+
+		.trabalhe-conosco {
+			margin-bottom: -90px;
+
+		}
+	}
+	
+
+
+
+	#blog {
+		margin-top: 115px;
+
+		.blog-01 {
+			margin-bottom: 0;
+			padding-bottom: 10px;
+			padding-top: 95px;
+			background: #f4f3ef;
+
+			.post {
+				.post-info {
+					.post-description {
+						height: 75px;
+					}
+				}
+			}
+		}
+	}
+
+	#footer {
+		background: #0a086b;
+		padding: 0 !important;
+
+		.footer-top {
+			padding: 30px;
+
+			.links {
+				.item-link p {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+
+	.floating-smi {
+		bottom: 150px;
+	}
+}
+@media (max-width: 650px) {
+	#header {
+		.header-top {
+			padding: 5px 0 !important;
+		}
+	}
+
+	#home {
+		.banner-section {
+			margin-top: 195px;
+		}
+
+		.banner-carousel {
+			.content-box {
+				h2 {
+					font-size: 35px;
+					width: 65%;
+				}
+
+				.descricao {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 576px) {
+	#header {
+		.fixed-menu {
+			.logo {
+				.logo-fix {
+					display: block;
+					padding: 5px 15px;
+				}
+			}
+		}
+	}
+
+	#home {
+		.banner-section {
+			margin-top: 0;
+		}
+	}
+
+	#footer {
+		.footer-top {
+			.links {
+				.item-link {
+					.form-newsletter {
+						form {
+							input {
+								width: 95%;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 450px) {
+	#header {
+		.header-nav {
+			.logo {
+				a {
+					img {
+						max-height: 40px;
+					}
+				}
+
+				.logo-fix {
+					padding: 0px 20px;
+				}
+			}
+		}
+	}
+
+	#home {
+		.sobre-home {
+			padding: 50px 10px !important;
+
+			.img-sobre {
+				.circles-left {
+					top: -10.5%;
+					left: -9.5%;
+				}
+
+				.circles-right {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 360px) {
+}
+
+@media all and (min-width: 992px) {
+	#header .header-nav .menu .nav .nav-item .dropdown-menu {
+		display: none;
+	}
+	#header .header-nav .menu .nav .nav-item:hover .dropdown-menu {
+		
+	}
+	#header .header-nav .menu .nav .nav-item .dropdown-menu {
+		margin-top: 0px;
+	}
+}
